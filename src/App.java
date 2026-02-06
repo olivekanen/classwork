@@ -57,13 +57,11 @@ public class App {
         
 
         for(int i = 0; i < board.length; i++){
-            //System.out.println(" _ _ _ _ _ _ _ _ _");
             System.out.println();
             for(int j = 0; j < board[i].length; j++){
                 tempt = board[i][j];
                 System.out.print(tempt);
                 };
-                //System.out.print("|");
             System.out.println();
         };
     };
